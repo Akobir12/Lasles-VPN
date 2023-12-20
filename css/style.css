@@ -7,57 +7,68 @@
 body {
 	font-family: 'rubik', sans-serif;
 }
-.aynirasm {
-	width: 19%;
-	display: inline-block;
-	margin-right: 50px;
-}
-.RASM1 {
-	margin-top: 21px;
-}
-.div1 {
-	text-align: center;
-	margin-top: 0px;
-	width: 18%;
-	display: inline-block;
-	margin-right: 50px;
-	margin-left: 50px;
-}
-.div2 {
-	text-align: center;
-	width: 18%;
-	display: inline-block;
-	margin-right: 50px;
-	margin-left: 50px;
-}
-.div3 {
-	text-align: center;
-	width: 18%;
-	display: inline-block;
-	margin-right: 50px;
-	margin-left: 50px;
-}
-.button1:focus {
-	transition: 0.7s;
-	background-color: red;
-	color: white;
-}
-.button1 {
-	color: red;
-	background-color: white;
-	width: 150px;
-	height: 45px;
-	border-radius: 50px;
-	border: 1px solid red;
-}
-h4 {
-	opacity: 0.8;
-	margin-right: 30px;
-	display: inline-block;
+.heading {
+  width: 1119px;
+  height: 100px;
+  padding: 50px 150px;
+
 }
 
+.link-box .logo-box  {
+  float: left;
+}
 
+.logo {
+  width: 100%;
+}
 
+.logo-box {
+  width: 148px;
+  height: 36px;
+}
+
+.ul-class-logo ,.li-class-logo {
+  float: left;
+  list-style-type: none;
+}
+
+.link-pad {
+  margin-top: 20px;
+}
+
+.ul-class .li-class {
+  float: left;
+  list-style-type: none;
+  padding-left: 120px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #4F5665;
+}
+
+.sign-btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sign-up {
+  border: 1px solid #F53855;
+  color: #F53855;
+}
+
+.sign-up:hover {
+  background-color: red;
+  color: #fff;
+  transition: 1s;
+}
 .text {
 	width: 50%;
 	display: inline-block;
@@ -65,17 +76,18 @@ h4 {
 .h1 {
 	width: 555px;
 	margin-left: 40px;
-	margin-bottom: 13px;
+	margin-bottom: 54px;
 	font-size: 50px;
 	font-weight: 500;
 }
 .paragraph {
 	margin-left: 40px;
-	margin-bottom: 34px;
+	margin-bottom: 100px;
 	opacity: 0.7;
 }
 
 .button2 {
+	margin-bottom: 50px;
 	margin-left: 40px;
 	font-size: 20px;
 	width: 250px;
@@ -86,8 +98,15 @@ h4 {
 	background-color: #F53838;
 	box-shadow: 0px 12px 35px 0px rgba(250,8,8,1);
 }
+.button2:focus {
+	background-color: white;
+	color: red;
+	border: 2px solid red;
+	box-shadow: 0px 0px 0px 0px rgba(250,8,8,1);
+}
+
 .rasm {
-	margin-top: 10pxpx;
+	margin-top: 150px;
 	width: 49%;
 	display: inline-block;
 	margin-bottom: 50px;
@@ -95,7 +114,7 @@ h4 {
 /*mana bu yergacha*/
 .glavnidiv2 {
 	border-radius: 20px;
-	height: 200px;
+	height: 177px;
 	width: 1400px;
 	margin-right: auto;
 	margin-left: auto;
@@ -110,10 +129,27 @@ h4 {
 	float: left;
 	width: 319px;
 }
+.bxs-check-circle {
+	margin-top: 7px;
+	font-size: 24px;
+}
 i {
 	color: #F53838;
 }
+.list1,.list2 {
+	width: 	319px;
+	float: left;
+}
+.list2 {
+	margin-left: 	200px;
+	float: ;
+}
+.list3 {
+	width: 	130px;
+	float: right;
+}
 .icon {
+	margin-right: 5px;
 	text-align: center;
 	display: inline-block;
 	width: 55px;
@@ -156,7 +192,7 @@ strong {
 	
 	font-weight: 700;
 }
-.bxs-user {
+.bxs-user, .bxs-map, .bxs-server {
 	font-size: 25px;
 	margin-top: 14px;
 	text-align: center;
@@ -244,15 +280,16 @@ strong {
 	height: 1100px;
 }
 .h100,.h500 {
-	text-align: center;
 	font-weight: 500;
-	font: rubik;
+}
+.h100 {
+	text-align: center;
 }
 .p100 {
+	margin-top: 40px;
 	margin-bottom: 100px;
 	text-align: center;
 	font-size: 1rem;
-	font: rubik;
 	font-weight: 400;
 }
 /*Aqibash 3 tasi*/
@@ -261,7 +298,6 @@ strong {
 .div100 {
 	margin-left: 188px;
 	float: left;
-	text-align: center;
 	border-radius: 10px;
 	background-color: white;
 	border: 2px solid #DDDDDD;
@@ -314,11 +350,11 @@ strong {
 
 /*bu2-si*/
 .div1000:active {
-	transition: 0.7s;
-	border: 2px solid red;
+	transition: 0.1s;
+	border: 4px solid red;
 }
 .div1000 {
-	margin-left: 50px;
+	margin-left: 100px;
 	display: inline-block;
 	text-align: center;
 	border-radius: 10px;
@@ -355,6 +391,10 @@ strong {
 	margin-top: 19px;
 	margin-bottom: 19px;
 }
+.boporcity,.boporcitys {
+	font-weight: 400;
+	opacity: 0.6;
+}
 .h500 {
 	margin-top: 165px;
 }
@@ -373,7 +413,7 @@ strong {
 
 /*bu 3-si*/
 .div1000 {
-	margin-left: 90px;
+	margin-left: 100px;
 	padding: 0;
 	display: inline-block;
 	text-align: center;
@@ -413,6 +453,9 @@ strong {
 	margin-bottom: 17px;
 }
 .h500 {
+	font-weight: 500;
+	font: rubik;
+	margin-bottom: 20px;
 	margin-top: 120px;
 }
 .button120 {
@@ -429,6 +472,7 @@ strong {
 }
 /*aqibash*/
 .h1past {
+	margin-bottom: 30px;
 	text-align: center;
 	font-size: 35px;
 	font: 500;
@@ -449,4 +493,251 @@ li{
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+}
+.rasmlogo {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 150px;
+		width: 1400px;
+}
+
+.divchat {
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1400px;
+	height: 500px;
+}
+.pchat,.h1chat {
+	text-align: center;
+	margin-top: 30px;
+}
+.pchat {
+	margin-bottom: 50px;
+}
+.chat-box-1 {
+	margin-left: 20px;
+	border: 2px solid gray;
+	float: left;
+	width: 415px;
+	height: 230px;
+	box-shadow: 0px 12px 63px -22px rgba(13,16,37,1);
+	border-radius: 10px;
+}
+.chat-box-1:hover {
+	border: 2px solid red;
+}
+
+.chat-box-2 {
+	margin-right: 30px;
+	float: right;
+	width: 415px;
+	height: 230px;
+	box-shadow: 0px 12px 63px -22px rgba(13,16,37,1);
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+.chat-box-2:hover {
+	border: 2px solid red;
+}
+
+.chat-box-3 {
+	border: 2px solid gray;
+	margin-right: 50px;
+	float: right;
+	width: 415px;
+	height: 230px;
+	box-shadow: 0px 12px 63px -22px rgba(13,16,37,1);
+	border-radius: 10px;
+}
+.chat-box-3:hover {
+	border: 2px solid red;
+}
+
+.ras-modam-1 {
+	padding: 15px 15px;
+	float: left;
+}
+b {
+	font-size: 14px;
+	font-weight: 400;
+}
+h5 {
+	margin-top: 20px;
+	float: left;
+}
+.fa-star {
+	margin-top: 25px;
+	margin-left: 150px;
+	float: leftf;
+}
+.box-1-p {
+	size: 1rem;
+	font-weight: 400;
+	margin-left: 20px;
+	float: left;
+}
+
+.button-1 {
+	margin-left: 66px;
+	border: 0;
+	border-radius: 30px;
+	background-color: red;
+	width: 45px;
+	height: 15px;
+}
+.button-2 {
+	border: 0;
+	background-color: gray;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+}
+.button-3{
+	margin-bottom: 30px;
+	margin-right: 200px;
+	float: right;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 0;
+	background-color: red;
+}
+.fa-arrow-right:focus{
+	color: white;
+}
+.button-4 {
+	margin-bottom: 30px;
+	margin-right: 20px;
+	float: right;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid	red;
+	background-color: white;
+}
+.button-4:focus {
+	background-color: red;
+}
+.fa-rotate-180:focus {
+	color: #fff;
+
+}
+
+.button-3:focus {
+	background-color: white;
+}
+
+.aqibtarash {
+	margin-bottom: 100px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	box-shadow: 0px 12px 63px -22px rgba(13,16,37,1);
+	border-radius: 10px;
+	width: 1240px;
+	height: 233px;
+}
+
+.box1 {
+	float: left;
+	width: 500px;
+	height: 200px;
+}
+.box-p {
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 0.8;
+}
+.box-h2{
+	margin-left: 50px;
+	font-size: 35px;
+	font: 500;
+	margin-top: 80px;
+}
+
+.box2 {
+	text-align: center;
+	float: right;
+	width: 500px;
+	height: 200px;
+}
+.button-box {
+	margin-top: 85px;
+	font-size: 20px;
+	width: 250px;
+	height: 80px;
+	border-radius: 15px;
+	border: 0px;
+	color: white;
+	background-color: #F53838;
+	box-shadow: 0px 12px 35px 0px rgba(250,8,8,1);
+}
+.button-box:focus {
+	background-color: white;
+	color: red;
+	border: 2px solid red;
+	box-shadow: 0px 0px 0px 0px rgba(250,8,8,1);
+}
+
+
+
+.footer-box {
+	padding: 0;
+	background-color: #F8F8F8;
+	width: 100%;
+	height: 370px;
+}
+/*iconko*/
+.ul-iconka {
+	float: left;
+}
+.span-icon-1 {
+	margin-right: 15px;
+	display: inline-block;
+	box-shadow: 0px 6px 35px 0px rgba(34, 60, 80, 0.2);
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	border-radius: 50%;
+}
+.bxl-facebook,.bxl-twitter,.bxl-instagram-alt {
+	margin-top: 7px;
+	font-size: 22px;
+}
+.li-oporsity {
+	opacity: 0.6;
+}
+li {
+	margin-top: 25px;
+}
+
+.ul-text {
+	float: left;
+}
+
+.ul-text-2 {
+	margin-right: 100px;
+	float: left;
+}
+.ul-text-3 {
+	
+	float: left;
+}
+.box-left {
+	padding-left: 50px;
+	float: left;
+	width: 40%;
+}
+.box-center {
+	float: left;
+	width: 20%;
+.box-center-2 {
+	float: left;
+	width: 20%;
+}
+.box-right {
+	float: left;
+	width: 20%;
 }
